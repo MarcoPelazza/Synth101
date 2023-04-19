@@ -155,7 +155,7 @@ var view, view2, view3, width, top, phaser, flanger, whawha, case, wahSynth, wah
 var firstInputChannel=s.options.numOutputBusChannels;
 ~size = 600;
 ~w = Window("Flow layout example", Rect(0, 0, 1200, 700), false).front;//window non resizable
-~w.background_(Color.cyan);
+~w.background_(Color.new(128,128,128));
 ~margin = 10;
 ~gap = 10;
 ~phaserGroup=Group.new;//0
@@ -170,12 +170,10 @@ var firstInputChannel=s.options.numOutputBusChannels;
 ~flangerGroup=Group.after(~wahGroup); //1*/
 
 
-
 width = ((700/3)-180).trunc; // Truncate to prevent rounding up half pixels
 top = (10);
 view = CompositeView(~w, Rect(110, top, 180, 450));
-view.background_(Color.grey(0.7));
-
+view.background = Color.new255(245.0,124.0,47.0);
 phaser = StaticText(view, Rect(22, 7, 95, 45));
 phaser.background = Color.new255(233, 150, 122);
 phaser.string_("PHASER");
@@ -184,7 +182,7 @@ phaser.align_(\center);
 
 
 view2= CompositeView(~w, Rect(510, top, 180, 450));
-view2.background_(Color.red(0.4));
+view2.background_(Color.new255(235,179,38));
 flanger = StaticText(view2, Rect(22, 7, 95, 45));
 flanger.background = Color.new255(233, 150, 122);
 flanger.string_("FLANGER");
@@ -192,7 +190,7 @@ flanger.font = Font("Arial", 16);
 flanger.align_(\center);
 
 view3=CompositeView(~w, Rect(910, top, 180, 450));
-view3.background_(Color.green(0.4));
+view3.background_(Color.new255(227,223,11));
 whawha = StaticText(view3, Rect(22, 7, 95, 45));
 whawha.background = Color.new255(233, 150, 122);
 whawha.string_("WAH-WAH");
@@ -318,7 +316,7 @@ q = ControlSpec.new(0.5,2.0, 'lin', 0.1);
 
 //PRIMO BOTTONEEEEEEEEEEE
 
-mybutton = Button(~w, Rect(width+48+250, 100, 100, 100));
+mybutton = Button(~w, Rect(350, 185, 100, 100));
 //mybutton=Button.new(w, Rect(20, 700, 30, 30)).states_([view.moveTo(100, 100),view.moveTo(width+48, top)]).action_({ arg butt;
 //	butt.value.postln;});
 
@@ -337,8 +335,8 @@ mybutton.action = {
 
 	//phaser and flanger
 	if (case==0,{
-		view2.moveTo(width+48, top);
-		view.moveTo(width+400+48, top);
+		view2.moveTo(110, top);
+		view.moveTo(510, top);
 
 		//~phaserGroup.moveAfter(~flangerGroup);
 		~phaserGroup.free;
@@ -366,8 +364,8 @@ mybutton.action = {
 	},{});
 	//flanger and phaser
     if (case==1,{
-		view.moveTo(width+48, top);
-		view2.moveTo(width+400+48, top);
+		view.moveTo(110, top);
+		view2.moveTo(510, top);
 		~phaserGroup.free;
 		~flangerGroup.free;
 		~wahGroup.free;
@@ -385,8 +383,8 @@ mybutton.action = {
 
     //phaser and wah wah
 	if (case==2,{
-		view3.moveTo(width+48, top);
-		view.moveTo(width+400+48, top);
+		view3.moveTo(110, top);
+		view.moveTo(510, top);
 		//~phaserGroup.moveAfter(~wahGroup);
 		//~wahGroup
 		p.set([\input_bus, ~b1, \output_bus,~b2]);
@@ -394,20 +392,20 @@ mybutton.action = {
 	},{});
 	//wah wah and phaser
     if (case==3,{
-		view.moveTo(width+48, top);
-		view3.moveTo(width+400+48, top);
+		view.moveTo(110, top);
+		view3.moveTo(510, top);
 		~wahGroup.moveAfter(~flangerGroup);
 	},{});
 
 	//flanger and wah wah
     if (case==4,{
-		view3.moveTo(width+48, top);
-		view2.moveTo(width+400+48, top);
+		view3.moveTo(110, top);
+		view2.moveTo(510, top);
 	},{});
 	//wah wah and flanger
     if (case==5,{
-		view2.moveTo(width+48, top);
-		view3.moveTo(width+400+48, top);
+		view2.moveTo(110, top);
+		view3.moveTo(510, top);
 	},{});
 
 	~pedalOrder.swap(0, 1);
@@ -419,7 +417,7 @@ mybutton.action = {
 
 //SECONDO BOTTONEEEEEEEEEEE
 
-mybutton = Button(~w, Rect(width+48+650, 100, 100, 100));
+mybutton = Button(~w, Rect(750, 185, 100, 100));
 //mybutton=Button.new(w, Rect(20, 700, 30, 30)).states_([view.moveTo(100, 100),view.moveTo(width+48, top)]).action_({ arg butt;
 //	butt.value.postln;});
 
