@@ -17,7 +17,7 @@
  <div>Dry/wet knob: Sets how heavy the flanger effect is with respect to the input signal</div>
  
  <h3>Wah wah</h3>
- <div>Frequency knob: sets the frequency of the wah effect </div>
+ <div>Frequency knob: Sets the frequency of the wah effect </div>
  <div>Dry/wet knob: Sets how heavy the wah wah effect is with respect to the input signal</div>
  
  <h3>General settings</h3>
