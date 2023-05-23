@@ -14,4 +14,8 @@
  <div>Frequency knob: Controls the frequency of a LFO that set the acting on the delay time</div>
  <div>Feedback knob: Set the amount of the feedback</div>
  <div>Width knob: Set the amplitude of the LFO described before</div>
- <div>Dry/wet knob: Set how heavy the flanger effects </div>
+ <div>Dry/wet knob: Set how heavy the flanger effects the input signal </div>
+ 
+ <h2>Wah-wah</h2>
+ <div>Frequency knob: set the frequency of the LFO </div>
+ <div>Dry/wet knob: Set how heavy the wah-wah effects the input signal</div>
