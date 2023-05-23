@@ -5,6 +5,6 @@
  ![Frequency visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_frequency.png)
  
  ![Time visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_time.png)
- <h2>Phaser<h2>
+ <h2>Phaser</h2>
  <p>Frequency knob: Frequency of a sin wawe that modulates the delay of an all-pass filter</p>
  <p>Dry/wet knob: Set how heavy the phaser effects the input signal </p>
