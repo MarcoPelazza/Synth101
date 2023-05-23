@@ -4,7 +4,7 @@
  
  ![Frequency visualization](https://github.com/MarcoPelazza/Synth101/blob/main/frequency.jpeg)
  
- ![Time visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_time.png)
+ ![Time visualization](https://github.com/MarcoPelazza/Synth101/blob/main/time.jpeg)
  
  <h3>Phaser</h3>
  <div>Frequency knob: Frequency of a sinusoidal wave that modulates the delay of an all-pass filter.</div>
