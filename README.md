@@ -2,7 +2,7 @@
  <p>Implementation of a multi effect with phaser, flanger and wah wah, whose layout is arrangeable in custom order. To bypass a filter it is only necessary to switch off the button at the bottom of each pedal. Frequency and time plots of both input and output signals are also implemented. The code can be simply executed by running the brackets at lines: 1, 7, 20, 135. To run the code a second time it is sufficient to run only the piece of code from line 135 onward. The first following picture shows the GUI when the frequency scope is selected, while the second one instead illustrates it on the time plot mode. </p>
  
  
- ![Frequency visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_frequency.png)
+ ![Frequency visualization](https://github.com/MarcoPelazza/Synth101/blob/main/frequency.jpeg)
  
  ![Time visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_time.png)
  
