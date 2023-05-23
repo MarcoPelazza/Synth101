@@ -14,11 +14,11 @@
  <div>Frequency knob: Controls the frequency of the LFO that influences the delay time</div>
  <div>Feedback knob: Sets the amount of feedback</div>
  <div>Width knob: Sets the amplitude of the LFO described before</div>
- <div>Dry/wet knob: Sets how heavy the flanger effect is whith respect to the input signal</div>
+ <div>Dry/wet knob: Sets how heavy the flanger effect is with respect to the input signal</div>
  
  <h3>Wah wah</h3>
  <div>Frequency knob: sets the frequency of the wah effect </div>
- <div>Dry/wet knob: Sets how heavy the wah wah effect is whith respect to the input signal</div>
+ <div>Dry/wet knob: Sets how heavy the wah wah effect is with respect to the input signal</div>
  
  <h3>General settings</h3>
  <p>It is possible to control the master volume, the pan and the overall ON/OFF from the respective knobs and button, whereas the arrows permit to swap pedal order.</p>
