@@ -20,4 +20,6 @@
  <div>Frequency knob: sets the frequency of the wah effect </div>
  <div>Dry/wet knob: Sets how heavy the wah wah effect is whith respect to the input signal</div>
  
+ <div>
  <p>In addiction is possible to set the master volume, the pan and the overall ON/OFF from the respective knobs and button</p>
+ </div>
