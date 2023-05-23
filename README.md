@@ -10,13 +10,13 @@
  <div>Frequency knob: Frequency of a sinusoidal wave that modulates the delay of an all-pass filter.</div>
  <div>Dry/wet knob: Sets how heavy the phaser effect is whith respect to the input signal.</div>
  
- <h2>Flanger</h2>
+ <h3>Flanger</h3>
  <div>Frequency knob: Controls the frequency of the LFO that influences the delay time</div>
  <div>Feedback knob: Sets the amount of feedback</div>
  <div>Width knob: Sets the amplitude of the LFO described before</div>
  <div>Dry/wet knob: Sets how heavy the flanger effect is whith respect to the input signal</div>
  
- <h2>Wah wah</h2>
+ <h3>Wah wah</h3>
  <div>Frequency knob: sets the frequency of the wah effect </div>
  <div>Dry/wet knob: Sets how heavy the wah wah effect is whith respect to the input signal</div>
  
