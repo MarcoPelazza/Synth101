@@ -22,5 +22,5 @@
  
  <div>
  <p></p>
- <p>In addiction is possible to set the master volume, the pan and the overall ON/OFF from the respective knobs and button, while the arrows permit to swap the pedal order</p>
+ <p>In addiction is possible to set the master volume, the pan and the overall ON/OFF from the respective knobs and button, while the arrows permit to swap the pedals order.</p>
  </div>
