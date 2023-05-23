@@ -6,7 +6,7 @@
  
  ![Time visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_time.png)
  
- <h2>Phaser</h2>
+ <h3>Phaser</h3>
  <div>Frequency knob: Frequency of a sinusoidal wave that modulates the delay of an all-pass filter.</div>
  <div>Dry/wet knob: Sets how heavy the phaser effect is whith respect to the input signal.</div>
  
