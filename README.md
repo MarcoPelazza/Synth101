@@ -3,5 +3,6 @@
  
  
  ![Frequency visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_frequency.png)
-<p>Gui in case of frequency visualization
+ 
+ ![Frequencyu visualization](https://github.com/MarcoPelazza/Synth101/blob/main/multieffect_frequency.png)
  
